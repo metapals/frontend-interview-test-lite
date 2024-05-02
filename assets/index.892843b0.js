@@ -25,9 +25,9 @@ var h=Object.defineProperty;var d=(l,e,s)=>e in l?h(l,e,{enumerable:!0,configura
     <hr />
     <h2 class="text-center">Test Objectives</h2>
     <ol class="list text-small">
-      <li>Demonstrate your ability to build a <b>simple</b> game engine.</li>
+      <li>Demonstrate your ability to build a <b>simple</b> game.</li>
       <li>Build a simple game with vanilla javascript.</li>
-      <li>Demonstrate your ability to write clean and neat code that suitable for game engine.</li>
+      <li>Demonstrate your ability to write clean code.</li>
     </ol>
     <h2 class="text-center">Guides</h2>
     <ol class="list text-small">
@@ -35,16 +35,13 @@ var h=Object.defineProperty;var d=(l,e,s)=>e in l?h(l,e,{enumerable:!0,configura
       <li>Try this mini app and collect the requirements.</li>
       <li>Must use <b>TypeScript</b>.</li>
       <li>Build the UI with vanilla javascript + CSS or SCSS, <strong>without</strong> React, Vue, Bootstrap, or any UI components library.</li>
-      <li>Build game without any pre-made game engine.</li>
       <li>But using Tailwind CSS or similar CSS utilities is allowed.</li>
       <li>Using assets bundler such as Vite or Webpack is a <b>must</b>.</li>
       <li>The time for the mole to hide itself is randomized between 200ms & 400ms.</li>
       <li>There is "debounce" in the app, which is prevent the mole to come out from hole if you keep clicking on any hole rapidly.</li>
       <li>The debounce function must be reusable</li>
-      <li>The code must be clean and neat, as if you were creating game engine code. You can use class/entity-based code to build the engine.</li>
-      <li>Build the game on top of custom <b>simple</b> game engine you made for this game <b>(don't overengineer the engine)</b>.</li>
+      <li>Make a unit test for it using any testing framework (Jest, Playwright, etc).</li>
       <li>Bonus Point: Try to improvise and add at least one feature (gameplay-wise), don't forget to explain it in a README file.</li>
-      <li>Bonus Point: Make a unit or e2e test for it using any testing framework (Jest, Playwright, etc).</li>
       <li>Submit by providing your GitHub repository information, include a README.md file and testable demo on GitHub pages.</li>
     </ol>
     <p>Mole image asset <a href="${c}" target="_blank">here</a></p>
